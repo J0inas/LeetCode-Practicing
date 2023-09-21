@@ -1,2 +1,4 @@
 # LeetCode-Practicing
-Collection of LeetCode questions I gathered while working on Java and C++.
+Collection of LeetCode solutions I gathered while leveling up my skills.
+
+## Goal: Solve 5 Problems in C++ until the end of Oktober.
