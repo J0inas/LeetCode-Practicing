@@ -6,12 +6,12 @@ public class IsSubsequence {
       return true;
     }
     int count = 0;
+    int j = 0;
     for (int i=0; i < t.length(); i++){
-      for (int j=0; j < s.length(); j++){
         if (s.charAt(j) == (t.charAt(i))){
           count++;
+          j++;
         }
-      }
     }
    return count == s.length();
 }
