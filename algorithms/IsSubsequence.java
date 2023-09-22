@@ -6,22 +6,18 @@ public class IsSubsequence {
       return true;
     }
     int count = 0;
-    for (int i=0; i < s.length(); i++){
-      for (int j=0; j < t.length(); j++){
-        if (s.charAt(i) == (t.charAt(j))){
+    for (int i=0; i < t.length(); i++){
+      for (int j=0; j < s.length(); j++){
+        if (s.charAt(j) == (t.charAt(i))){
           count++;
-          continue;
         }
       }
     }
-    if (count == s.length()){
-      return true;
-    }
-    else return false;
-  }
+   return count == s.length();
+}
 
   public static void main(String[] args) {
-   String s = "abc";
+   String s = "acb";
    String t = "ahbgdc";
    System.out.println(isSubsequence(s,t));
   }
