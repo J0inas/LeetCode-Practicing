@@ -1,3 +1,5 @@
+package java;
+
 public class IsSubsequence {
   public static boolean isSubsequence(String s, String t) {
     // if s is subsequence of t return true
